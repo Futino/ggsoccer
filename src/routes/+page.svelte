@@ -18,7 +18,7 @@
 		</h3>
 
 		<div class="space-x-6">
-			<a href="{base}/register">
+			<a href="#">
 				<Button>
 					<p>Register Now!</p>
 				</Button>
