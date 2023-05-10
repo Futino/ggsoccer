@@ -18,23 +18,13 @@
 				<nav class="text-sm font-semibold leading-6">
 					<ul class="flex m-auto space-x-8">
 						<li>
-							<a class="inline hover:text-tertiary-light dark:hover:text-tertiary-dark" href="#">
-								Sample
+							<a class="inline hover:text-tertiary-light dark:hover:text-tertiary-dark" href="#about">
+								About Us
 							</a>
 						</li>
 						<li>
-							<a class="inline hover:text-tertiary-light dark:hover:text-tertiary-dark" href="#">
-								Sample
-							</a>
-						</li>
-						<li>
-							<a class="inline hover:text-tertiary-light dark:hover:text-tertiary-dark" href="#">
-								Sample
-							</a>
-						</li>
-						<li>
-							<a class="inline hover:text-tertiary-light dark:hover:text-tertiary-dark" href="#">
-								Sample
+							<a class="inline hover:text-tertiary-light dark:hover:text-tertiary-dark" href="#contact">
+								Contact Us
 							</a>
 						</li>
 						<li class="border-l border-secondary-light/20 dark:border-secondary-dark/20" />
