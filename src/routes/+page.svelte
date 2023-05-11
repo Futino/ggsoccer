@@ -14,7 +14,7 @@
 >
 	<section
 		id="hero"
-		class="grow py-30 sm:py-34 md:py-44 shadow-lg px-4 sm:px-6 md:px-8 grid justify-items-center space-y-12 border-b border-secondary-light/20 dark:border-secondary-dark/20 bg-black relative "
+		class="grow py-32 sm:py-34 md:py-44 shadow-lg px-4 sm:px-6 md:px-8 grid justify-items-center space-y-12 border-b border-secondary-light/20 dark:border-secondary-dark/20 bg-black relative "
 	>
 		<img
 			src="media/IMG_4905.jpeg"
@@ -118,47 +118,45 @@
 		id="contact"
 		class="text-center py-5 sm:py-10 md:py-24 px-4 sm:px-6 md:px-8 md:w-2/3 self-center"
 	>
-		<div class="flex flex-row align-middle justify-center place-items-center space-x-64">
+		<div
+			class="flex flex-col space-y-12 md:space-y-0 md:flex-row align-middle justify-center place-items-center md:space-x-64"
+		>
 			<!--Contant methods-->
-			<div class="flex flex-col space-y-12">
+			<div
+				class="flex flex-row md:flex-col md:space-y-12 md:space-x-0 space-x-3 justify-items-center align-middle text-center md:text-left"
+			>
 				<!--Phone number-->
 				<div class="flex flex-col space-y-2">
-					<div class="rounded-full bg-surface-variant-light w-fit p-6">
+					<div class="rounded-full bg-surface-variant-light w-fit p-6 mx-auto md:mx-0">
 						<Icon icon="phone" height="32px" width="32px" />
 					</div>
 					<a class="" href="tel:9133600394">
-						<h1 class="title-large font-extrabold text-left text-surface-on-light">
-							(913) 360-0394
-						</h1>
+						<h1 class="title-large font-extrabold">(913) 360-0394</h1>
 					</a>
 				</div>
 				<!--Email-->
-				<div class="flex flex-col space-y-2">
-					<div class="rounded-full bg-surface-variant-light w-fit p-6">
+				<div class="flex flex-col space-y-2 ">
+					<div class="rounded-full bg-surface-variant-light w-fit p-6 mx-auto md:mx-0">
 						<Icon icon="email" height="32px" width="32px" />
 					</div>
 					<a class="" href="mailto:ggsoccercamps@gmail.com">
-						<h1 class="title-large font-extrabold text-left text-surface-on-light">
-							(913) 360-0394
-						</h1>
+						<h1 class="title-large font-extrabold">ggsoccercamps @gmail.com</h1>
 					</a>
 				</div>
 				<!--Email-->
 				<div class="flex flex-col space-y-2">
-					<div class="rounded-full bg-surface-variant-light w-fit p-6">
+					<div class="rounded-full bg-surface-variant-light w-fit p-6 mx-auto md:mx-0">
 						<Icon icon="location" height="32px" width="32px" />
 					</div>
 					<a class="" href="tel:9133600394">
-						<h1 class="title-large font-extrabold text-left text-surface-on-light">
-							Atchison Recreation Sports Complex
-						</h1>
+						<h1 class="title-large font-extrabold">Atchison Recreation Sports Complex</h1>
 					</a>
 				</div>
 			</div>
 			<!--Contact form-->
-			<div class="flex grow p-8 shadow-lg shadow-black/40 space-y-12 flex-col">
+			<div class="flex p-8 shadow-lg shadow-black/40 space-y-12 flex-col">
 				<div class="text-left space-y-10">
-					<h2 class="text-4xl tracking-tight font-extrabold sm:text-5xl">Contact Us</h2>
+					<h2 class="display-medium font-extrabold">Contact Us</h2>
 					<p>Have any questions? Get in contact with us!</p>
 				</div>
 				<form class="flex-1 flex flex-col space-y-5 h-50">
@@ -170,7 +168,7 @@
 						placeholder="Name"
 					/>
 					<input
-						class="border border-black/50 dark:border-white/50 p-1 dark:bg-black/5"
+						class="border border-black/50 dark:border-white/50 p-1 dark:bg-surface-dark/5"
 						type="text"
 						name="email"
 						id="email"

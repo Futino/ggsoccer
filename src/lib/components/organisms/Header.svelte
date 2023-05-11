@@ -5,7 +5,7 @@
 </script>
 
 <div
-	class="{$$props.class}  top-0 z-40 flex-none w-full transition-colors duration-500 backdrop-blur bg-primary-container-light/5 dark:bg-primary-container-dark/5 text-primary-container-on-light dark:text-primary-container-on-dark"
+	class="{$$props.class} top-0 z-40 flex-none w-full transition-colors duration-500 backdrop-blur bg-primary-container-light/5 dark:bg-primary-container-dark/5 text-primary-container-on-light dark:text-primary-container-on-dark"
 >
 	<div class="py-4 mx-5 border-b border-secondary-light/10 dark:border-secondary-dark/10">
 		<div class="flex relative items-center md:px-10 lg:px-20 xl:px-40 px-auto md:px-auto">
