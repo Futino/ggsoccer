@@ -7,7 +7,8 @@ const config = {
 		extend: {
 			fontFamily: {
 				bilbo: ['Bilbo Swash Caps'],
-				ubuntu: ['Ubuntu']
+				ubuntu: ['Ubuntu'],
+				ibm: ['IBM Plex Sans'],
 			},
 
 			animation: {

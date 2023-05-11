@@ -16,15 +16,27 @@
 
 			<div class="flex items-center ml-auto">
 				<nav class="text-sm font-semibold leading-6">
-					<ul class="flex m-auto space-x-8">
+					<ul
+						class="flex m-auto space-x-12 [&>*]:my-auto text-surface-on-light [&>*]:hover:text-tertiary-light [&>*]:dark:hover:text-tertiary-dark"
+					>
 						<li>
-							<a class="inline hover:text-tertiary-light dark:hover:text-tertiary-dark" href="#about">
-								About Us
+							<a class="inline" href="#about">
+								<h1 class="body-large">About Us</h1>
 							</a>
 						</li>
 						<li>
-							<a class="inline hover:text-tertiary-light dark:hover:text-tertiary-dark" href="#contact">
-								Contact Us
+							<a class="inline" href="#contact">
+								<h1 class="body-large">Contact Us</h1>
+							</a>
+						</li>
+						<li>
+							<a class="inline" href="#contact">
+								<h1 class="body-large">Gallary</h1>
+							</a>
+						</li>
+						<li class="bg-primary-light p-5">
+							<a class="inline" href="tel:9133600394">
+								<h1 class="body-large text-primary-on-light">(913) 360-0394</h1>
 							</a>
 						</li>
 						<li class="border-l border-secondary-light/20 dark:border-secondary-dark/20" />

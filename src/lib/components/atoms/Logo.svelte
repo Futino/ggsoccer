@@ -2,4 +2,4 @@
 	import { base } from '$app/paths';
 </script>
 
-<img src="{base}/favicon.png" class="h-9 rounded-full" alt="Logo" />
+<img src="{base}/logo/Logo.png" class="h-24 rounded-full" alt="Logo" />
