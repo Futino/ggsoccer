@@ -23,24 +23,20 @@
 		</h3>
 
 		<div class="space-x-6">
-			<a href="#">
+			<a href="https://forms.gle/8Aez3YWynF7PMAz66">
 				<Button>
 					<p>Register Now</p>
 				</Button>
 			</a>
-			<a href="#">
+			<a href="#contact">
 				<Button>
 					<p>Contact Us</p>
 				</Button>
 			</a>
-			<!-- <a href="{base}/about">
-				<Button>
-					<p>Who Are We?</p>
-				</Button>
-			</a> -->
 		</div>
 	</section>
 
+	<!--About section-->
 	<section
 		id="about"
 		class="text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
@@ -67,15 +63,55 @@
 				</div>
 			</figcaption>
 		</figure>
+
+		<style>
+			.card {
+				@apply rounded-lg max-w-xl shadow-2xl flex flex-col text-surface-on-light dark:text-surface-on-dark p-8 h-full;
+			}
+		</style>
+
+		<!--Camp Options-->
+		<div id="camps" class="grid grid-cols-1 lg:grid-cols-2 place-items-center m-6 gap-x-4">
+			<div class="card">
+				<h1 class="headline-medium font-bold p-4">Ages 3-6</h1>
+				<h2 class="body-large p-2">
+					At GGSoccer, we ignite soccer passion, unlock potential, and elevate game performance. Our
+					personalized coaching approach focuses on skill development, tactical understanding, and
+					fostering a strong team spirit. Join our inclusive community where players of all levels
+					thrive, exceed expectations.
+				</h2>
+				<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
+					$85
+				</h2>
+				<Button class="mt-7 mx-auto self-end">
+					<p>Register Now</p>
+				</Button>
+			</div>
+			<div class="card">
+				<h1 class="title-large font-bold p-4">Ages 7-12</h1>
+				<h2 class="body-large p-2">
+					At GGSoccer, we ignite soccer passion, unlock potential, and elevate game performance. Our
+					personalized coaching approach focuses on skill development, tactical understanding, and
+					fostering a strong team spirit. Join our inclusive community where players of all levels
+					thrive, exceed expectations.
+				</h2>
+				<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
+					$135
+				</h2>
+				<Button class="mt-7 mx-auto self-end">
+					<p>Register Now</p>
+				</Button>
+			</div>
+		</div>
 	</section>
 
 	<section
 		id="contact"
-		class="text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 md:w-2/3 self-center"
+		class="text-center py-5 sm:py-10 md:py-24 px-4 sm:px-6 md:px-8 md:w-2/3 self-center"
 	>
 		<div class="flex flex-row align-middle justify-center place-items-center space-x-64">
 			<!--Contant methods-->
-			<div class="flex flex-col space-y-6">
+			<div class="flex flex-col space-y-12">
 				<!--Phone number-->
 				<div class="flex flex-col space-y-2">
 					<div class="rounded-full bg-surface-variant-light w-fit p-6">
@@ -92,7 +128,7 @@
 					<div class="rounded-full bg-surface-variant-light w-fit p-6">
 						<Icon icon="email" height="32px" width="32px" />
 					</div>
-					<a class="" href="tel:9133600394">
+					<a class="" href="mailto:ggsoccercamps@gmail.com">
 						<h1 class="title-large font-extrabold text-left text-surface-on-light">
 							(913) 360-0394
 						</h1>
@@ -105,7 +141,7 @@
 					</div>
 					<a class="" href="tel:9133600394">
 						<h1 class="title-large font-extrabold text-left text-surface-on-light">
-							(913) 360-0394
+							Atchison Recreation Sports Complex
 						</h1>
 					</a>
 				</div>

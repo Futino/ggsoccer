@@ -17,24 +17,31 @@
 			<div class="flex items-center ml-auto">
 				<nav class="text-sm font-semibold leading-6">
 					<ul
-						class="flex m-auto space-x-12 [&>*]:my-auto text-surface-on-light [&>*]:hover:text-tertiary-light [&>*]:dark:hover:text-tertiary-dark"
+						class="flex m-auto space-x-12 [&>*]:my-auto text-surface-on-light dark:text-surface-on-dark "
 					>
-						<li>
-							<a class="inline" href="#about">
+						<li class="hover:text-tertiary-light dark:hover:text-tertiary-light">
+							<a class="" href="#camps">
+								<h1 class="body-large">Camps</h1>
+							</a>
+						</li>
+						<li class="hover:text-tertiary-light dark:hover:text-tertiary-light">
+							<a class="" href="#about">
 								<h1 class="body-large">About Us</h1>
 							</a>
 						</li>
-						<li>
+						<li class="hover:text-tertiary-light dark:hover:text-tertiary-light">
 							<a class="inline" href="#contact">
 								<h1 class="body-large">Contact Us</h1>
 							</a>
 						</li>
-						<li>
+						<li class="hover:text-tertiary-light dark:hover:text-tertiary-light">
 							<a class="inline" href="#contact">
 								<h1 class="body-large">Gallary</h1>
 							</a>
 						</li>
-						<li class="bg-primary-light p-5">
+						<li
+							class="bg-primary-light hover:bg-secondary-light hover:text-secondary-on-light dark:hover:text-secondary-on-dark  dark:hover:bg-secondary-dark p-5"
+						>
 							<a class="inline" href="tel:9133600394">
 								<h1 class="body-large text-primary-on-light">(913) 360-0394</h1>
 							</a>
