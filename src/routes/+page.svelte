@@ -15,7 +15,7 @@
 	<!--Hero-->
 	<section
 		id="hero"
-		class="grow py-32 sm:py-34 md:py-44 shadow-lg px-4 sm:px-6 md:px-8 grid justify-items-center space-y-12 border-b border-secondary-light/20 dark:border-secondary-dark/20 bg-black relative "
+		class="grow py-32 sm:py-34 md:py-44 shadow-lg px-4 sm:px-6 md:px-8 grid justify-items-center space-y-12 border-secondary-light/20 dark:border-secondary-dark/20 bg-black relative"
 	>
 		<img
 			src="media/IMG_4905.jpeg"
@@ -23,10 +23,10 @@
 			class="absolute opacity-50
              w-full h-full object-cover"
 		/>
-		<h1 class="display-large text-white z-10">Good Game Soccer</h1>
+		<h1 class="display-large text-white z-10 drop-shadow-md shadow-black font-extrabold">Good Game Soccer</h1>
 
-		<h3 class="headline-small text-white z-10">
-			Empowering Players, Inspiring Victories: Your Path to Soccer Excellence
+		<h3 class="headline-small text-white z-10 drop-shadow-md shadow-black font-bold tracking-wide">
+			Empowering Players, Inspiring Youth: Excellence Through Soccer
 		</h3>
 
 		<div class="space-x-6">
@@ -49,7 +49,7 @@
 		class="flex flex-col text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
 	>
 		<div class="flex flex-col max-w-7xl mx-auto">
-			<h2 class="display-large tracking-tight font-extrabold ">About GG Soccer</h2>
+			<h2 class="display-large">About GG Soccer</h2>
 			<p class="mt-6 max-w-3xl mx-auto body-large">
 				Good Game (GG) Soccer was founded by college soccer players who have a passion for
 				giving back to the younger generation through the sport they love and played their
@@ -67,7 +67,7 @@
 		class="flex flex-col text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
 	>
 		<div class="flex flex-col max-w-7xl mx-auto">
-			<h1 class="display-large font-bold">Summer Camps 2023</h1>
+			<h1 class="display-large">Summer Camps 2023</h1>
 			<h2 class="headline-medium">May 29 - June 2</h2>
 			<style>
 				.card {
@@ -189,10 +189,10 @@
 	</section>
 
 	<!--Gallery Section-->
-	<section
+	<!-- <section
 		id="gallery"
 		class="text-center py-5 sm:py-10 md:py-24 px-4 sm:px-6 md:px-8 md:w-2/3 self-center"
-	/>
+	/> -->
 </main>
 
 <Footer />
