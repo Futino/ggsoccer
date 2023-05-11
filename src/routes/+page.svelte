@@ -14,11 +14,17 @@
 >
 	<section
 		id="hero"
-		class="grow py-20 sm:py-32 md:py-40 shadow-lg px-4 sm:px-6 md:px-8 grid justify-items-center space-y-12 border-b border-secondary-light/20 dark:border-secondary-dark/20"
+		class="grow py-30 sm:py-34 md:py-44 shadow-lg px-4 sm:px-6 md:px-8 grid justify-items-center space-y-12 border-b border-secondary-light/20 dark:border-secondary-dark/20 bg-black relative "
 	>
-		<h1 class="display-large">Good Game Soccer</h1>
+		<img
+			src="media/IMG_4905.jpeg"
+			alt=""
+			class="absolute opacity-50
+             w-full h-full object-cover"
+		/>
+		<h1 class="display-large text-white z-10">Good Game Soccer</h1>
 
-		<h3 class="text-2xl">
+		<h3 class="text-2xl text-white z-10">
 			Empowering Players, Inspiring Victories: Your Path to Soccer Excellence
 		</h3>
 
@@ -71,8 +77,9 @@
 		</style>
 
 		<!--Camp Options-->
-		<div id="camps" class="grid grid-cols-1 lg:grid-cols-2 place-items-center m-6 gap-x-4">
+		<div id="camps" class="grid grid-cols-1 lg:grid-cols-2 place-items-center m-6 my-12 gap-x-4">
 			<div class="card">
+				<img src="media/IMG_4855.jpeg" alt="" class="object-cover rounded-lg h-1/2 w-full" />
 				<h1 class="headline-medium font-bold p-4">Ages 3-6</h1>
 				<h2 class="body-large p-2">
 					At GGSoccer, we ignite soccer passion, unlock potential, and elevate game performance. Our
@@ -88,6 +95,7 @@
 				</Button>
 			</div>
 			<div class="card">
+				<img src="media/IMG_8900.jpeg" alt="" class="object-cover rounded-lg h-1/2 w-full" />
 				<h1 class="title-large font-bold p-4">Ages 7-12</h1>
 				<h2 class="body-large p-2">
 					At GGSoccer, we ignite soccer passion, unlock potential, and elevate game performance. Our
@@ -105,6 +113,7 @@
 		</div>
 	</section>
 
+	<!--Contact Section-->
 	<section
 		id="contact"
 		class="text-center py-5 sm:py-10 md:py-24 px-4 sm:px-6 md:px-8 md:w-2/3 self-center"
@@ -178,6 +187,12 @@
 			</div>
 		</div>
 	</section>
+
+	<!--Gallery Section-->
+	<section
+		id="gallery"
+		class="text-center py-5 sm:py-10 md:py-24 px-4 sm:px-6 md:px-8 md:w-2/3 self-center"
+	/>
 </main>
 
 <Footer />
