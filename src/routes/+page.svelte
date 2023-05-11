@@ -78,31 +78,35 @@
 				id="camps"
 				class="grid grid-cols-1 max-w-7xl mx-auto lg:grid-cols-2 my-12 justify-items-stretch"
 			>
-				<div class="card">
+				<div class="card space-y-2 bg-surface-light/5">
 					<img src="media/CampAges36.jpeg" alt="Ages 7-12 Camp" class="object-cover h-60 sm:h-96" />
-					<h1 class="headline-medium font-bold pt-2">Ages 3 - 6</h1>
-					<h2 class="title-large font-light pb-2">8:15 - 9:15</h2>
-					<hr class="p-1" />
-					<h2 class="title-medium font-light pb-2">Atchison Recreation Sports Complex</h2>
-					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
+					<h1 class="headline-medium font-bold">Ages 3 - 6</h1>
+					<h2 class="title-large font-light">8:15 - 9:15</h2>
+					<hr class="p-1 opacity-40" />
+					<h2 class="title-medium font-light">Atchison Recreation Sports Complex</h2>
+					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark">
 						$80
 					</h2>
-					<Button class="mt-7 mx-auto">
-						<p>Register Now</p>
-					</Button>
+					<a href="https://forms.gle/8Aez3YWynF7PMAz66">
+						<Button>
+							<p>Register Now</p>
+						</Button>
+					</a>
 				</div>
-				<div class="card">
+				<div class="card space-y-2 bg-surface-light/5">
 					<img src="media/CampAges712.png" alt="Ages 7-12 Camp" class="object-cover h-60 sm:h-96" />
-					<h1 class="headline-medium font-bold pt-2">Ages 7 - 12</h1>
-					<h2 class="title-large font-light pb-2">9:30 - 12:30</h2>
-					<hr class="p-1" />
-					<h2 class="title-medium font-light pb-2">Atchison Recreation Sports Complex</h2>
-					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
+					<h1 class="headline-medium font-bold">Ages 7 - 12</h1>
+					<h2 class="title-large font-light">9:30 - 12:30</h2>
+					<hr class="p-1 opacity-40" />
+					<h2 class="title-medium font-light">Atchison Recreation Sports Complex</h2>
+					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark">
 						$130
 					</h2>
-					<Button class="mt-7 mx-auto self-end">
-						<p>Register Now</p>
-					</Button>
+					<a href="https://forms.gle/8Aez3YWynF7PMAz66">
+						<Button>
+							<p>Register Now</p>
+						</Button>
+					</a>
 				</div>
 			</div>
 		</div>
