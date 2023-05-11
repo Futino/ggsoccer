@@ -116,7 +116,7 @@
 		<div class="flex flex-col max-w-7xl mx-auto">
 			<!--Contant methods-->
 			<div
-				class="flex flex-row md:flex-col md:space-y-12 md:space-x-0 space-x-3 justify-items-center align-middle text-center md:text-left"
+				class="flex flex-col md:space-y-12 md:space-x-0 space-x-3 justify-items-center align-middle text-center md:text-left"
 			>
 				<!--Phone number-->
 				<div class="flex flex-row space-y-2 items-center space-x-12">
