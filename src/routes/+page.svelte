@@ -45,132 +45,118 @@
 
 	<!--About section-->
 	<section
-		id="about"
-		class="text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
+		id="camps"
+		class="flex flex-col text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
 	>
-		<h2 class="display-large tracking-tight font-extrabold ">About GG Soccer</h2>
-		<figure>
-			<blockquote>
-				<p class="mt-6 max-w-3xl mx-auto body-large">
-					At GGSoccer, we ignite soccer passion, unlock potential, and elevate game performance. Our
-					personalized coaching approach focuses on skill development, tactical understanding, and
-					fostering a strong team spirit. Join our inclusive community where players of all levels
-					thrive, exceed expectations, and become well-rounded athletes. With dedicated coaches,
-					individualized attention, and emphasis on teamwork, we cultivate both physical and mental
-					growth. Experience the transformative power of GGSoccer as we guide you towards greatness.
-					Unleash your soccer potential, forge lifelong connections, and embrace the joy of the
-					game.
-				</p>
-			</blockquote>
-			<figcaption class="mt-6 flex items-center justify-center space-x-4 text-left">
-				<img src="" alt="" class="w-14 h-14 rounded-full" loading="lazy" decoding="async" />
-				<div>
-					<div class="font-semibold title-medium">Gabriel I. Lewis</div>
-					<div class="mt-0.5 title-small leading-6">Creator of Good Game Soccer</div>
-				</div>
-			</figcaption>
-		</figure>
+		<div class="flex flex-col max-w-7xl mx-auto">
+			<h2 class="display-large tracking-tight font-extrabold ">About GG Soccer</h2>
+			<p class="mt-6 max-w-3xl mx-auto body-large">
+				Good Game (GG) Soccer was founded by college soccer players who have a passion for
+				giving back to the younger generation through the sport they love and played their
+				whole lives. At GG Soccer we value the development of each of our campers. Our camps
+				are aimed at providing each camper a chance to improve their soccer ability while also
+				bringing home a memorable experience that is fun, social, and engaging. We are very
+				excited to see you all this summer!
+			</p>
+		</div>
 	</section>
 
 	<!--Camp Options-->
 	<section
-		id="contact"
-		class="text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
+		id="camps"
+		class="flex flex-col text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
 	>
-		<h1 class="display-large font-bold">Summer Camps 2023</h1>
-		<h2 class="headline-medium">May 29 - June 2</h2>
-		<style>
-			.card {
-				@apply rounded-lg max-w-2xl shadow-2xl flex flex-col text-surface-on-light dark:text-surface-on-dark m-2 p-6 h-fit;
-			}
-		</style>
-		<div
-			id="camps"
-			class="grid grid-cols-1 max-w-7xl mx-auto lg:grid-cols-2 my-12 justify-items-center"
-		>
-			<div class="card">
-				<img src="media/IMG_4855.jpeg" alt="" class="object-cover rounded-lg h-1/2 w-full" />
-				<h1 class="headline-medium font-bold pt-2">Ages 3-6</h1>
-				<h1 class="title-large font-light pb-2">
-					8:15-9:15am @ Atchison Recreation Sports Complex
-				</h1>
-				<h2 class="body-large p-2">
-					At GGSoccer, we ignite soccer passion, unlock potential, and elevate game performance. Our
-					personalized coaching approach focuses on skill development, tactical understanding, and
-					fostering a strong team spirit. Join our inclusive community where players of all levels
-					thrive, exceed expectations.
-				</h2>
-				<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
-					$85
-				</h2>
-				<Button class="mt-7 mx-auto">
-					<p>Register Now</p>
-				</Button>
+		<div class="flex flex-col max-w-7xl mx-auto">
+			<h1 class="display-large font-bold">Summer Camps 2023</h1>
+			<h2 class="headline-medium">May 29 - June 2</h2>
+			<style>
+				.card {
+					@apply rounded-lg max-w-2xl shadow-2xl flex flex-col text-surface-on-light dark:text-surface-on-dark m-2 p-6 h-fit;
+				}
+			</style>
+			<div
+				id="camps"
+				class="grid grid-cols-1 max-w-7xl mx-auto lg:grid-cols-2 my-12 justify-items-stretch"
+			>
+				<div class="card">
+					<img src="media/CampAges36.jpeg" alt="Ages 7-12 Camp" class="object-cover h-60 sm:h-96" />
+					<h1 class="headline-medium font-bold pt-2">Ages 3 - 6</h1>
+					<h2 class="title-large font-light pb-2">
+						8:15 - 9:15
+					</h2>
+					<hr class="p-1">
+					<h2 class="title-medium font-light pb-2">
+						Atchison Recreation Sports Complex
+					</h2>
+					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
+						$80
+					</h2>
+					<Button class="mt-7 mx-auto">
+						<p>Register Now</p>
+					</Button>
+				</div>
+				<div class="card">
+					<img src="media/CampAges712.png" alt="Ages 7-12 Camp" class="object-cover h-60 sm:h-96"  />
+					<h1 class="headline-medium font-bold pt-2">Ages 7 - 12</h1>
+					<h2 class="title-large font-light pb-2">
+						9:30 - 12:30
+					</h2>
+					<hr class="p-1">
+					<h2 class="title-medium font-light pb-2">
+						Atchison Recreation Sports Complex
+					</h2>
+					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
+						$130
+					</h2>
+					<Button class="mt-7 mx-auto self-end">
+						<p>Register Now</p>
+					</Button>
+				</div>
 			</div>
-			<div class="card ">
-				<img src="media/IMG_4855.jpeg" alt="" class="object-cover rounded-lg h-1/2 w-full" />
-				<h1 class="headline-medium font-bold pt-2">Ages 7-12</h1>
-				<h1 class="title-large font-light pb-2">
-					9:30-12:30am @ Atchison Recreation Sports Complex
-				</h1>
-				<h2 class="body-large p-2">
-					At GGSoccer, we ignite soccer passion, unlock potential, and elevate game performance. Our
-					personalized coaching approach focuses on skill development, tactical understanding, and
-					fostering a strong team spirit. Join our inclusive community where players of all levels
-					thrive, exceed expectations.
-				</h2>
-				<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
-					$135
-				</h2>
-				<Button class="mt-7 mx-auto self-end">
-					<p>Register Now</p>
-				</Button>
-			</div>
+
 		</div>
 	</section>
 
 	<!--Contact Section-->
 	<section
 		id="contact"
-		class="text-center py-5 sm:py-10 md:py-24 px-4 sm:px-6 md:px-8 md:w-2/3 self-center"
+		class="flex flex-col text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
 	>
-		<div
-			class="flex flex-col max-w-7xl space-y-12 md:space-y-0 md:flex-row align-middle justify-center place-items-center md:space-x-12"
-		>
+		<div class="flex flex-col max-w-7xl mx-auto">
 			<!--Contant methods-->
 			<div
 				class="flex flex-row md:flex-col md:space-y-12 md:space-x-0 space-x-3 justify-items-center align-middle text-center md:text-left"
 			>
 				<!--Phone number-->
-				<div class="flex flex-col space-y-2">
+				<div class="flex flex-row space-y-2 items-center space-x-12">
 					<div class="rounded-full bg-surface-variant-light w-fit p-6 mx-auto md:mx-0">
 						<Icon icon="phone" height="32px" width="32px" />
 					</div>
-					<a class="" href="tel:9133600394">
+					<a class="flex items-center" href="tel:9133600394">
 						<h1 class="title-large font-extrabold">(913) 360-0394</h1>
 					</a>
 				</div>
 				<!--Email-->
-				<div class="flex flex-col space-y-2 ">
+				<div class="flex flex-row space-y-2 items-center space-x-12">
 					<div class="rounded-full bg-surface-variant-light w-fit p-6 mx-auto md:mx-0">
 						<Icon icon="email" height="32px" width="32px" />
 					</div>
-					<a class="" href="mailto:ggsoccercamps@gmail.com">
+					<a class="flex items-center" href="mailto:ggsoccercamps@gmail.com">
 						<h1 class="title-large font-extrabold">ggsoccercamps @gmail.com</h1>
 					</a>
 				</div>
 				<!--Email-->
-				<div class="flex flex-col space-y-2">
+				<div class="flex flex-row space-y-2 items-center space-x-12">
 					<div class="rounded-full bg-surface-variant-light w-fit p-6 mx-auto md:mx-0">
 						<Icon icon="location" height="32px" width="32px" />
 					</div>
-					<a class="" href="tel:9133600394">
+					<a class="flex items-center" href="tel:9133600394">
 						<h1 class="title-large font-extrabold">Atchison Recreation Sports Complex</h1>
 					</a>
 				</div>
 			</div>
 			<!--Contact form-->
-			<div class="flex p-8 shadow-lg shadow-black/40 space-y-12 flex-col">
+			<!-- <div class="flex p-8 shadow-lg shadow-black/40 space-y-12 flex-col">
 				<div class="text-left space-y-10">
 					<h2 class="display-medium font-extrabold">Contact Us</h2>
 					<p>Have any questions? Get in contact with us!</p>
@@ -198,7 +184,7 @@
 					/>
 					<Button><input type="submit" value="Send" /></Button>
 				</form>
-			</div>
+			</div> -->
 		</div>
 	</section>
 
