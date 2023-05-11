@@ -129,17 +129,17 @@
 					<Icon icon="email" height="32px" width="32px" />
 				</div>
 
-				<a class="col-span-3 flex items-center" href="tel:9133600394">
-					<h1 class="title-small sm:title-large">ggsoccercamps @gmail.com</h1>
+				<a class="col-span-3 flex items-center" href="mailto:ggsoccercamps@gmail.com">
+					<h1 class="title-small sm:title-large">ggsoccercamps@gmail.com</h1>
 				</a>
 				<!--Email-->
 				<div class="col-span-1 rounded-full bg-surface-variant-light w-min h-min ml-auto p-5">
 					<Icon icon="location" height="32px" width="32px" />
 				</div>
 
-				<a class="col-span-3 flex items-center" href="tel:9133600394">
-					<h1 class="title-small sm:title-large">Atchison Recreation Sports Complex</h1>
-				</a>
+				<div class="col-span-3 flex items-center">
+					<h1 class="title-small sm:title-large">Kansas</h1>
+				</div>
 			</div>
 			<!--Contact form-->
 			<!-- <div class="flex p-8 shadow-lg shadow-black/40 space-y-12 flex-col">
