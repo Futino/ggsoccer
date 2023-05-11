@@ -12,6 +12,7 @@
 <main
 	class="text-center border-b shadow-2xl border-primary-light/40 dark:border-primary-dark/40 flex flex-col items-stretch"
 >
+	<!--Hero-->
 	<section
 		id="hero"
 		class="grow py-32 sm:py-34 md:py-44 shadow-lg px-4 sm:px-6 md:px-8 grid justify-items-center space-y-12 border-b border-secondary-light/20 dark:border-secondary-dark/20 bg-black relative "
@@ -24,7 +25,7 @@
 		/>
 		<h1 class="display-large text-white z-10">Good Game Soccer</h1>
 
-		<h3 class="text-2xl text-white z-10">
+		<h3 class="headline-small text-white z-10">
 			Empowering Players, Inspiring Victories: Your Path to Soccer Excellence
 		</h3>
 
@@ -47,10 +48,10 @@
 		id="about"
 		class="text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
 	>
-		<h2 class="text-4xl tracking-tight font-extrabold sm:text-5xl">About GG Soccer</h2>
+		<h2 class="display-large tracking-tight font-extrabold ">About GG Soccer</h2>
 		<figure>
 			<blockquote>
-				<p class="mt-6 max-w-3xl mx-auto text-lg">
+				<p class="mt-6 max-w-3xl mx-auto body-large">
 					At GGSoccer, we ignite soccer passion, unlock potential, and elevate game performance. Our
 					personalized coaching approach focuses on skill development, tactical understanding, and
 					fostering a strong team spirit. Join our inclusive community where players of all levels
@@ -64,23 +65,35 @@
 			<figcaption class="mt-6 flex items-center justify-center space-x-4 text-left">
 				<img src="" alt="" class="w-14 h-14 rounded-full" loading="lazy" decoding="async" />
 				<div>
-					<div class="font-semibold">Gabe</div>
-					<div class="mt-0.5 text-sm leading-6">Creator of Good Game Soccer</div>
+					<div class="font-semibold title-medium">Gabriel I. Lewis</div>
+					<div class="mt-0.5 title-small leading-6">Creator of Good Game Soccer</div>
 				</div>
 			</figcaption>
 		</figure>
+	</section>
 
+	<!--Camp Options-->
+	<section
+		id="contact"
+		class="text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
+	>
+		<h1 class="display-large font-bold">Summer Camps 2023</h1>
+		<h2 class="headline-medium">May 29 - June 2</h2>
 		<style>
 			.card {
-				@apply rounded-lg max-w-xl shadow-2xl flex flex-col text-surface-on-light dark:text-surface-on-dark p-8 h-full;
+				@apply rounded-lg max-w-2xl shadow-2xl flex flex-col text-surface-on-light dark:text-surface-on-dark m-2 p-6 h-fit;
 			}
 		</style>
-
-		<!--Camp Options-->
-		<div id="camps" class="grid grid-cols-1 lg:grid-cols-2 place-items-center m-6 my-12 gap-x-4">
+		<div
+			id="camps"
+			class="grid grid-cols-1 max-w-7xl mx-auto lg:grid-cols-2 my-12 justify-items-center"
+		>
 			<div class="card">
 				<img src="media/IMG_4855.jpeg" alt="" class="object-cover rounded-lg h-1/2 w-full" />
-				<h1 class="headline-medium font-bold p-4">Ages 3-6</h1>
+				<h1 class="headline-medium font-bold pt-2">Ages 3-6</h1>
+				<h1 class="title-large font-light pb-2">
+					8:15-9:15am @ Atchison Recreation Sports Complex
+				</h1>
 				<h2 class="body-large p-2">
 					At GGSoccer, we ignite soccer passion, unlock potential, and elevate game performance. Our
 					personalized coaching approach focuses on skill development, tactical understanding, and
@@ -90,13 +103,16 @@
 				<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
 					$85
 				</h2>
-				<Button class="mt-7 mx-auto self-end">
+				<Button class="mt-7 mx-auto">
 					<p>Register Now</p>
 				</Button>
 			</div>
-			<div class="card">
-				<img src="media/IMG_8900.jpeg" alt="" class="object-cover rounded-lg h-1/2 w-full" />
-				<h1 class="title-large font-bold p-4">Ages 7-12</h1>
+			<div class="card ">
+				<img src="media/IMG_4855.jpeg" alt="" class="object-cover rounded-lg h-1/2 w-full" />
+				<h1 class="headline-medium font-bold pt-2">Ages 7-12</h1>
+				<h1 class="title-large font-light pb-2">
+					9:30-12:30am @ Atchison Recreation Sports Complex
+				</h1>
 				<h2 class="body-large p-2">
 					At GGSoccer, we ignite soccer passion, unlock potential, and elevate game performance. Our
 					personalized coaching approach focuses on skill development, tactical understanding, and
@@ -119,7 +135,7 @@
 		class="text-center py-5 sm:py-10 md:py-24 px-4 sm:px-6 md:px-8 md:w-2/3 self-center"
 	>
 		<div
-			class="flex flex-col space-y-12 md:space-y-0 md:flex-row align-middle justify-center place-items-center md:space-x-64"
+			class="flex flex-col max-w-7xl space-y-12 md:space-y-0 md:flex-row align-middle justify-center place-items-center md:space-x-12"
 		>
 			<!--Contant methods-->
 			<div
