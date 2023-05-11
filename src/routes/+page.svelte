@@ -84,9 +84,7 @@
 					<h2 class="title-large font-light">8:15 - 9:15</h2>
 					<hr class="p-1 opacity-40" />
 					<h2 class="title-medium font-light">Atchison Recreation Sports Complex</h2>
-					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark">
-						$80
-					</h2>
+					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark">$80</h2>
 					<a href="https://forms.gle/8Aez3YWynF7PMAz66">
 						<Button>
 							<p>Register Now</p>
@@ -99,9 +97,7 @@
 					<h2 class="title-large font-light">9:30 - 12:30</h2>
 					<hr class="p-1 opacity-40" />
 					<h2 class="title-medium font-light">Atchison Recreation Sports Complex</h2>
-					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark">
-						$130
-					</h2>
+					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark">$130</h2>
 					<a href="https://forms.gle/8Aez3YWynF7PMAz66">
 						<Button>
 							<p>Register Now</p>
@@ -119,36 +115,31 @@
 	>
 		<div class="flex flex-col max-w-7xl mx-auto">
 			<!--Contant methods-->
-			<div
-				class="flex flex-col md:space-y-12 md:space-x-0 space-x-3 justify-items-center align-middle text-center md:text-left"
-			>
+			<div class="grid grid-cols-4 grid-rows-3 gap-2">
 				<!--Phone number-->
-				<div class="flex flex-row space-y-2 items-center space-x-12">
-					<div class="rounded-full bg-surface-variant-light w-fit p-6 mx-auto md:mx-0">
-						<Icon icon="phone" height="32px" width="32px" />
-					</div>
-					<a class="flex items-center" href="tel:9133600394">
-						<h1 class="title-large font-extrabold">(913) 360-0394</h1>
-					</a>
+				<div class="col-span-1 rounded-full bg-surface-variant-light w-min h-min ml-auto p-5">
+					<Icon icon="phone" height="32px" width="32px" />
 				</div>
+
+				<a class="col-span-3 flex items-center" href="tel:9133600394">
+					<h1 class="title-small sm:title-large">(913) 360-0394</h1>
+				</a>
 				<!--Email-->
-				<div class="flex flex-row space-y-2 items-center space-x-12">
-					<div class="rounded-full bg-surface-variant-light w-fit p-6 mx-auto md:mx-0">
-						<Icon icon="email" height="32px" width="32px" />
-					</div>
-					<a class="flex items-center" href="mailto:ggsoccercamps@gmail.com">
-						<h1 class="title-large font-extrabold">ggsoccercamps @gmail.com</h1>
-					</a>
+				<div class="col-span-1 rounded-full bg-surface-variant-light w-min h-min ml-auto p-5">
+					<Icon icon="email" height="32px" width="32px" />
 				</div>
+
+				<a class="col-span-3 flex items-center" href="tel:9133600394">
+					<h1 class="title-small sm:title-large">ggsoccercamps @gmail.com</h1>
+				</a>
 				<!--Email-->
-				<div class="flex flex-row space-y-2 items-center space-x-12">
-					<div class="rounded-full bg-surface-variant-light w-fit p-6 mx-auto md:mx-0">
-						<Icon icon="location" height="32px" width="32px" />
-					</div>
-					<a class="flex items-center" href="tel:9133600394">
-						<h1 class="title-large font-extrabold">Atchison Recreation Sports Complex</h1>
-					</a>
+				<div class="col-span-1 rounded-full bg-surface-variant-light w-min h-min ml-auto p-5">
+					<Icon icon="location" height="32px" width="32px" />
 				</div>
+
+				<a class="col-span-3 flex items-center" href="tel:9133600394">
+					<h1 class="title-small sm:title-large">Atchison Recreation Sports Complex</h1>
+				</a>
 			</div>
 			<!--Contact form-->
 			<!-- <div class="flex p-8 shadow-lg shadow-black/40 space-y-12 flex-col">
