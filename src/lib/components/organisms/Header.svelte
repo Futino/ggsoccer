@@ -11,7 +11,7 @@
 		<div class="flex relative items-center md:px-10 lg:px-20 xl:px-40 px-auto md:px-auto">
 			<a class="flex overflow-hidden gap-3 justify-center flex-none" href="{base}/">
 				<Logo />
-			 	<p class="hidden 2xl:flex self-center display-small">Good Game Soccer</p>
+				<p class="hidden 2xl:flex self-center display-small">Good Game Soccer</p>
 			</a>
 
 			<div class="flex items-center ml-auto">

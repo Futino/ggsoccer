@@ -1,9 +1,7 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import Header from '$lib/components/organisms/Header.svelte';
 	import Footer from '$lib/components/organisms/Footer.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
-	import Logo from '$lib/components/atoms/Logo.svelte';
 	import Icon from '$lib/components/atoms/Icon.svelte';
 </script>
 
@@ -23,7 +21,9 @@
 			class="absolute opacity-50
              w-full h-full object-cover"
 		/>
-		<h1 class="display-large text-white z-10 drop-shadow-md shadow-black font-extrabold">Good Game Soccer</h1>
+		<h1 class="display-large text-white z-10 drop-shadow-md shadow-black font-extrabold">
+			Good Game Soccer
+		</h1>
 
 		<h3 class="headline-small text-white z-10 drop-shadow-md shadow-black font-bold tracking-wide">
 			Empowering Players, Inspiring Youth: Excellence Through Soccer
@@ -45,18 +45,18 @@
 
 	<!--About section-->
 	<section
-		id="camps"
+		id="about"
 		class="flex flex-col text-center py-5 sm:py-10 md:py-20 px-4 sm:px-6 md:px-8 shadow-lg border-b border-secondary-light/20 dark:border-secondary-dark/20"
 	>
 		<div class="flex flex-col max-w-7xl mx-auto">
 			<h2 class="display-large">About GG Soccer</h2>
 			<p class="mt-6 max-w-3xl mx-auto body-large">
-				Good Game (GG) Soccer was founded by college soccer players who have a passion for
-				giving back to the younger generation through the sport they love and played their
-				whole lives. At GG Soccer we value the development of each of our campers. Our camps
-				are aimed at providing each camper a chance to improve their soccer ability while also
-				bringing home a memorable experience that is fun, social, and engaging. We are very
-				excited to see you all this summer!
+				Good Game (GG) Soccer was founded by college soccer players who have a passion for giving
+				back to the younger generation through the sport they love and played their whole lives. At
+				GG Soccer we value the development of each of our campers. Our camps are aimed at providing
+				each camper a chance to improve their soccer ability while also bringing home a memorable
+				experience that is fun, social, and engaging. We are very excited to see you all this
+				summer!
 			</p>
 		</div>
 	</section>
@@ -81,13 +81,9 @@
 				<div class="card">
 					<img src="media/CampAges36.jpeg" alt="Ages 7-12 Camp" class="object-cover h-60 sm:h-96" />
 					<h1 class="headline-medium font-bold pt-2">Ages 3 - 6</h1>
-					<h2 class="title-large font-light pb-2">
-						8:15 - 9:15
-					</h2>
-					<hr class="p-1">
-					<h2 class="title-medium font-light pb-2">
-						Atchison Recreation Sports Complex
-					</h2>
+					<h2 class="title-large font-light pb-2">8:15 - 9:15</h2>
+					<hr class="p-1" />
+					<h2 class="title-medium font-light pb-2">Atchison Recreation Sports Complex</h2>
 					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
 						$80
 					</h2>
@@ -96,15 +92,11 @@
 					</Button>
 				</div>
 				<div class="card">
-					<img src="media/CampAges712.png" alt="Ages 7-12 Camp" class="object-cover h-60 sm:h-96"  />
+					<img src="media/CampAges712.png" alt="Ages 7-12 Camp" class="object-cover h-60 sm:h-96" />
 					<h1 class="headline-medium font-bold pt-2">Ages 7 - 12</h1>
-					<h2 class="title-large font-light pb-2">
-						9:30 - 12:30
-					</h2>
-					<hr class="p-1">
-					<h2 class="title-medium font-light pb-2">
-						Atchison Recreation Sports Complex
-					</h2>
+					<h2 class="title-large font-light pb-2">9:30 - 12:30</h2>
+					<hr class="p-1" />
+					<h2 class="title-medium font-light pb-2">Atchison Recreation Sports Complex</h2>
 					<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark pt-2">
 						$130
 					</h2>
@@ -113,7 +105,6 @@
 					</Button>
 				</div>
 			</div>
-
 		</div>
 	</section>
 
