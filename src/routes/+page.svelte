@@ -176,10 +176,43 @@
 	</section>
 
 	<!--Gallery Section-->
-	<!-- <section
+	<section
 		id="gallery"
-		class="text-center py-5 sm:py-10 md:py-24 px-4 sm:px-6 md:px-8 md:w-2/3 self-center"
-	/> -->
+		class="text-center py-5 sm:py-10 md:py-24 px-4 sm:px-6 md:px-12 md:max-w-7xl self-center"
+	>
+		<h1 class="display-large font-bold p-4">Don't Miss Out!</h1>
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2">
+			<div class="flex flex-col gap-2">
+				<img src="media/IMG_4776.jpeg" alt="" class="object-cover" />
+				<img src="media/IMG_4904.jpeg" alt="" class="object-cover" />
+				<img src="media/img2.jpg" alt="" class="object-cover" />
+			</div>
+
+			<div class="flex flex-col gap-2">
+				<img src="media/IMG_8900.jpeg" alt="" class="" />
+				<video controls class="">
+					<track kind="captions" />
+					<source src="media/IMG_3383.mp4" class="h-full" type="video/mp4" />
+					Error Message
+				</video>
+				<img src="media/IMG_3011.jpeg" alt="" class="object-cover h-full" />
+			</div>
+			<div class="flex flex-col gap-2">
+				<img src="media/img3.jpg" alt="" class="object-cover" />
+				<img src="media/img4.jpg" alt="" class="object-cover" />
+				<img src="media/img5.jpg" alt="" class="object-cover h-full" />
+			</div>
+			<div class="flex flex-col gap-2">
+				<img src="media/img6.jpg" alt="" class="object-cover h-full" />
+				<video controls>
+					<track kind="captions" />
+					<source src="media/IMG_4767.mp4" class="h-full" type="video/mp4" />
+					Error Message
+				</video>
+				<img src="media/img1.jpg" alt="" class="object-cover h-full" />
+			</div>
+		</div>
+	</section>
 </main>
 
 <Footer />
