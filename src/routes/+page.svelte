@@ -134,20 +134,21 @@
 				</a>
 				<!--Email-->
 				<div class="col-span-1 rounded-full bg-surface-variant-light w-min h-min ml-auto p-5">
-					<Icon icon="location" height="32px" width="32px" />
+					<Icon icon="facebook" height="32px" width="32px" />
 				</div>
 
-				<div class="col-span-3 flex items-center">
-					<h1 class="title-small sm:title-large">Kansas</h1>
-				</div>
+				<a class="col-span-3 flex items-center" href="https://www.facebook.com/goodgamesoccercamps">
+					<h1 class="title-small sm:title-large">goodgamesoccercamps</h1>
+				</a>
 			</div>
 			<!--Contact form-->
-			<!-- <div class="flex p-8 shadow-lg shadow-black/40 space-y-12 flex-col">
+
+			<!--<div class="flex p-8 shadow-lg shadow-black/40 space-y-12 flex-col">
 				<div class="text-left space-y-10">
 					<h2 class="display-medium font-extrabold">Contact Us</h2>
 					<p>Have any questions? Get in contact with us!</p>
 				</div>
-				<form class="flex-1 flex flex-col space-y-5 h-50">
+				<form method="post" class="flex-1 flex flex-col space-y-5 h-50">
 					<input
 						class="border border-black/50 dark:border-white/50 p-1 dark:bg-black/5"
 						type="text"
@@ -168,9 +169,9 @@
 						id="message"
 						placeholder="Message"
 					/>
-					<Button><input type="submit" value="Send" /></Button>
+					<Button><input type="button" value="Send Email" onclick="sendEmail()" /></Button>
 				</form>
-			</div> -->
+			</div>-->
 		</div>
 	</section>
 
