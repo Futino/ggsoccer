@@ -16,7 +16,7 @@
 			<li>
 				<a
 					class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
-					href=""
+					href="https://www.instagram.com/ggsoccercamps/"
 				>
 					<Icon icon="instagram" height="38" width="38" />
 				</a>
@@ -24,12 +24,12 @@
 			<li>
 				<a
 					class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
-					href=""
+					href="https://www.facebook.com/goodgamesoccercamps"
 				>
-					<Icon icon="facebook" height="42" width="42" fillColor="" />
+					<Icon icon="facebook" height="42" width="42" fillColor="DarkSlateBlue" />
 				</a>
 			</li>
-			<li>
+			<!--<li>
 				<a
 					class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
 					href=""
@@ -44,7 +44,7 @@
 				>
 					<Icon icon="email" height="42" width="42" fillColor="FireBrick" />
 				</a>
-			</li>
+			</li>-->
 		</ul>
 	</div>
 	<hr class="my-6 sm:mx-auto lg:my-8 border-secondary-light/10 dark:border-secondary-dark/10" />
