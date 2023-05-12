@@ -1,7 +1,10 @@
 <script lang="ts">
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import Icon from '../atoms/Icon.svelte';
+
+	
 </script>
+
 
 <footer
 	class="{$$props.class} pt-12 p-6 border-t border-secondary-light/10 dark:border-secondary-dark/10"
