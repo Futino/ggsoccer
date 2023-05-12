@@ -18,7 +18,7 @@
 					class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
 					href=""
 				>
-					<Icon icon="instagram" height="48" width="48" />
+					<Icon icon="instagram" height="38" width="38" />
 				</a>
 			</li>
 			<li>
@@ -26,7 +26,7 @@
 					class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
 					href=""
 				>
-					<Icon icon="facebook" height="52" width="52" fillColor="" />
+					<Icon icon="facebook" height="42" width="42" fillColor="" />
 				</a>
 			</li>
 			<li>
@@ -34,7 +34,7 @@
 					class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
 					href=""
 				>
-					<Icon icon="phone" height="48" width="48" fillColor="DarkSlateBlue" />
+					<Icon icon="phone" height="38" width="38" fillColor="DarkSlateBlue" />
 				</a>
 			</li>
 			<li>
@@ -42,7 +42,7 @@
 					class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
 					href=""
 				>
-					<Icon icon="email" height="52" width="52" fillColor="FireBrick" />
+					<Icon icon="email" height="42" width="42" fillColor="FireBrick" />
 				</a>
 			</li>
 		</ul>
