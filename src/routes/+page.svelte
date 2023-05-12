@@ -126,7 +126,7 @@
 				</a>
 				<!--Email-->
 				<div class="col-span-1 rounded-full bg-surface-variant-light w-min h-min ml-auto p-5">
-					<Icon icon="email" height="32px" width="32px" />
+					<Icon icon="email" height="32px" width="32px" fillColor="black" />
 				</div>
 
 				<a class="col-span-3 flex items-center" href="mailto:ggsoccercamps@gmail.com">
