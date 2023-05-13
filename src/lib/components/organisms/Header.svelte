@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import ThemeButton from '$lib/components/molecules/ThemeButton.svelte';
 	import Logo from '$lib/components/atoms/Logo.svelte';
+	import Icon from '../atoms/Icon.svelte';
 </script>
 
 <div
@@ -42,7 +43,26 @@
 								<h1 class="body-large text-primary-on-light">(913) 360-0394</h1>
 							</a>
 						</li>
-						<li class="border-l border-secondary-light/20 dark:border-secondary-dark/20" />
+						<div
+							class="border-x-2 px-8 border-secondary-light/20 dark:border-secondary-dark/20 flex flex-row gap-6"
+						>
+							<li>
+								<a
+									class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
+									href="https://www.instagram.com/ggsoccercamps/"
+								>
+									<Icon icon="instagram" height="24" width="24" />
+								</a>
+							</li>
+							<li>
+								<a
+									class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
+									href="https://www.facebook.com/goodgamesoccercamps"
+								>
+									<Icon icon="facebook" height="24" width="24" fillColor="DarkSlateBlue" />
+								</a>
+							</li>
+						</div>
 						<li>
 							<ThemeButton />
 						</li>
