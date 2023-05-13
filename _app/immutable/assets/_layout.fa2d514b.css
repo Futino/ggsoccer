@@ -911,11 +911,17 @@ video {
 .border-b {
   border-bottom-width: 1px;
 }
+.border-l {
+  border-left-width: 1px;
+}
 .border-t {
   border-top-width: 1px;
 }
 .border-black\/50 {
   border-color: rgb(0 0 0 / 0.5);
+}
+.border-primary-light\/20 {
+  border-color: rgb(var(--md-sys-color-primary-light)/ 0.2);
 }
 .border-primary-light\/40 {
   border-color: rgb(var(--md-sys-color-primary-light)/ 0.4);
