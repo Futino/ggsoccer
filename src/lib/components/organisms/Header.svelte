@@ -63,6 +63,7 @@
 								</a>
 							</li>
 						</div>
+						<li class="border-l border-primary-light/20 dark:border-secondary-dark/20" />
 						<li>
 							<ThemeButton />
 						</li>
