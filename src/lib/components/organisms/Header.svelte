@@ -18,52 +18,28 @@
 			<div class="flex items-center ml-auto">
 				<nav class="text-sm font-semibold">
 					<ul
-						class="flex m-auto space-x-2 sm:space-x-5 lg:space-x-5 xl:space-x-12 [&>*]:my-auto text-surface-on-light dark:text-surface-on-dark "
+						class="flex m-auto space-x-3 sm:space-x-6 md:space-x-12 text-surface-on-light dark:text-surface-on-dark items-center"
 					>
-						<li class="hidden md:flex hover:text-tertiary-light dark:hover:text-tertiary-light">
+						<li class="hover:text-tertiary-light dark:hover:text-tertiary-light">
 							<a class="" href="#about">
-								<h1 class="body-large">About Us</h1>
+								<Icon icon="instagram" height="24" width="24" />
 							</a>
 						</li>
-						<li class="hidden md:flex hover:text-tertiary-light dark:hover:text-tertiary-light">
-							<a class="" href="#camps">
-								<h1 class="body-large">Camps</h1>
-							</a>
-						</li>
-						<li class="hidden md:flex hover:text-tertiary-light dark:hover:text-tertiary-light">
-							<a class="inline" href="#contact">
-								<h1 class="body-large">Contact Us</h1>
+
+						<li class="hover:text-tertiary-light dark:hover:text-tertiary-light">
+							<a class="" href="#about">
+								<Icon icon="facebook" height="24" width="24" fillColor="DarkSlateBlue" />
 							</a>
 						</li>
 
 						<li
-							class="bg-primary-light hover:bg-secondary-light hover:text-secondary-on-light dark:hover:text-secondary-on-dark dark:hover:bg-secondary-dark p-3 w-max"
+							class="bg-primary-light hover:bg-secondary-light hover:text-secondary-on-light dark:hover:text-secondary-on-dark dark:hover:bg-secondary-dark p-2 sm:p-3 w-max"
 						>
 							<a class="inline" href="tel:9133600394">
-								<h1 class="body-large text-primary-on-light">(913) 360-0394</h1>
+								<h1 class="body-small md:body-large text-primary-on-light">(913) 360-0394</h1>
 							</a>
 						</li>
-						<div
-							class="border-x-2 px-8 border-secondary-light/20 dark:border-secondary-dark/20 flex flex-row gap-6"
-						>
-							<li>
-								<a
-									class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
-									href="https://www.instagram.com/ggsoccercamps/"
-								>
-									<Icon icon="instagram" height="24" width="24" />
-								</a>
-							</li>
-							<li>
-								<a
-									class="inline text-secondary-light dark:text-secondary-dark hover:text-tertiary-light dark:hover:text-tertiary-dark mx-auto"
-									href="https://www.facebook.com/goodgamesoccercamps"
-								>
-									<Icon icon="facebook" height="24" width="24" fillColor="DarkSlateBlue" />
-								</a>
-							</li>
-						</div>
-						<li class="border-l border-primary-light/20 dark:border-secondary-dark/20" />
+						<li class="self-stretch border-l border-black/20 dark:border-secondary-dark/20" />
 						<li>
 							<ThemeButton />
 						</li>
