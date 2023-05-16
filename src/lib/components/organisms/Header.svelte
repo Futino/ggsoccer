@@ -21,13 +21,13 @@
 						class="flex m-auto space-x-3 sm:space-x-6 md:space-x-12 text-surface-on-light dark:text-surface-on-dark items-center"
 					>
 						<li class="hover:text-tertiary-light dark:hover:text-tertiary-light">
-							<a class="" href="#about">
+							<a class="" href="https://www.instagram.com/ggsoccercamps/">
 								<Icon icon="instagram" height="24" width="24" />
 							</a>
 						</li>
 
 						<li class="hover:text-tertiary-light dark:hover:text-tertiary-light">
-							<a class="" href="#about">
+							<a class="" href="https://www.facebook.com/goodgamesoccercamps">
 								<Icon icon="facebook" height="24" width="24" fillColor="DarkSlateBlue" />
 							</a>
 						</li>
