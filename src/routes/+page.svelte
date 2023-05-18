@@ -17,7 +17,7 @@
 		class="grow py-32 sm:py-34 md:py-44 shadow-lg px-4 sm:px-6 md:px-8 grid justify-items-center space-y-12 border-secondary-light/20 dark:border-secondary-dark/20 bg-black relative"
 	>
 		<img
-			src="media/IMG_4905.jpeg"
+			src="media/IMG_4905.webp"
 			alt=""
 			class="absolute opacity-50
              w-full h-full object-cover"
@@ -88,7 +88,7 @@
 				>
 					<div class="card space-y-2 bg-surface-light/5">
 						<img
-							src="media/CampAges36.jpeg"
+							src="media/CampAges36.webp"
 							alt="Ages 7-12 Camp"
 							class="object-cover h-60 sm:h-96"
 						/>
@@ -209,9 +209,9 @@
 			<h1 class="display-large font-bold p-4">Don't Miss Out!</h1>
 			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
 				<div class="flex flex-col gap-2">
-					<img src="media/IMG_4776.jpeg" alt="" class="object-cover h-60" />
-					<img src="media/IMG_4904.jpeg" alt="" class="" />
-					<img src="media/img1.jpg" alt="" class="object-cover h-full" />
+					<img src="media/IMG_4776.webp" alt="" class="object-cover h-full" />
+					<img src="media/IMG_4904.webp" alt="" class="" />
+					<img src="media/img1.webp" alt="" class="object-cover h-full" />
 				</div>
 
 				<div class="flex flex-col gap-2">
@@ -220,8 +220,8 @@
 						<source src="media/IMG_3383.mp4" class="h-full" type="video/mp4" />
 						Error Message
 					</video>
-					<img src="media/img6.jpg" alt="" class="object-cover" />
-					<img src="media/img7.jpg" alt="" class="object-cover h-full" />
+					<img src="media/img6.webp" alt="" class="object-cover" />
+					<img src="media/img7.webp" alt="" class="object-cover h-full" />
 				</div>
 
 				<div class="flex flex-col gap-2">
@@ -231,8 +231,7 @@
 						Error Message
 					</video>
 
-					<img src="media/IMG_3011.jpeg" alt="" class="object-cover h-full" />
-					<!--<img src="media/img3.jpg" alt="" class="object-cover" />-->
+					<img src="media/IMG_3011.webp" alt="" class="object-cover h-full" />
 				</div>
 			</div>
 		</ScrollFadeIn>
