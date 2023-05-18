@@ -11,6 +11,17 @@
 			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
 			rel="stylesheet"
 		/>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-L790PR5V8N"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-L790PR5V8N');
+		</script>
 
 		<script>
 			// On page load or when changing themes, best to add inline in `head` to avoid FOUC
@@ -34,13 +45,13 @@
 
 		<meta http-equiv="content-security-policy" content="">
 		<link href="./_app/immutable/assets/0.8f720b56.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.aec6ef4c.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.5e103287.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.58401d34.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.c3250f11.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/paths.e7ab73ea.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.4c9f35cd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.973d8485.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.fd7531a9.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.8a5c3c23.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.b948c9ae.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.fbace1df.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.bcdf7bd4.js">
 	</head>
 	<body
 		data-sveltekit-preload-data="hover"
@@ -96,7 +107,7 @@
 			
 			<script>
 				{
-					__sveltekit_upcktz = {
+					__sveltekit_kqj46x = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -106,8 +117,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.aec6ef4c.js"),
-						import("./_app/immutable/entry/app.4c9f35cd.js")
+						import("./_app/immutable/entry/start.5e103287.js"),
+						import("./_app/immutable/entry/app.8a5c3c23.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
