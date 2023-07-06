@@ -4,6 +4,8 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Icon from '$lib/components/atoms/Icon.svelte';
 	import ScrollFadeIn from '$lib/components/organisms/ScrollFadeIn.svelte';
+
+	const FORM_LINK = "https://forms.gle/wXBYtoBho1rNUWqs6"
 </script>
 
 <Header />
@@ -34,7 +36,7 @@
 			</h3>
 
 			<div class="space-x-6">
-				<a href="https://forms.gle/wXBYtoBho1rNUWqs6">
+				<a href={FORM_LINK}>
 					<Button>
 						<p>Register Now</p>
 					</Button>
@@ -97,7 +99,7 @@
 						<hr class="p-1 opacity-40" />
 						<h2 class="title-medium font-light">Atchison Recreation Sports Complex</h2>
 						<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark">$80</h2>
-						<a href="https://forms.gle/8Aez3YWynF7PMAz66">
+						<a href={FORM_LINK}>
 							<Button>
 								<p>Register Now</p>
 							</Button>
@@ -116,7 +118,7 @@
 						<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark">
 							$130
 						</h2>
-						<a href="https://forms.gle/8Aez3YWynF7PMAz66">
+						<a href={FORM_LINK}>
 							<Button>
 								<p>Register Now</p>
 							</Button>
