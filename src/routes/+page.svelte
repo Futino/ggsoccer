@@ -34,7 +34,7 @@
 			</h3>
 
 			<div class="space-x-6">
-				<a href="https://forms.gle/8Aez3YWynF7PMAz66">
+				<a href="https://forms.gle/wXBYtoBho1rNUWqs6">
 					<Button>
 						<p>Register Now</p>
 					</Button>
@@ -76,7 +76,7 @@
 		<ScrollFadeIn>
 			<div class="flex flex-col max-w-7xl mx-auto">
 				<h1 class="display-large">Summer Camps 2023</h1>
-				<h2 class="headline-medium">May 29 - June 2</h2>
+				<h2 class="headline-medium">July 24 - 28</h2>
 				<style>
 					.card {
 						@apply rounded-lg max-w-2xl shadow-2xl flex flex-col text-surface-on-light dark:text-surface-on-dark m-2 p-6 h-fit;
@@ -110,7 +110,7 @@
 							class="object-cover h-60 sm:h-96"
 						/>
 						<h1 class="headline-medium font-bold">Ages 7 - 12</h1>
-						<h2 class="title-large font-light">9:30 - 12:30</h2>
+						<h2 class="title-large font-light">9:30 - 12:00</h2>
 						<hr class="p-1 opacity-40" />
 						<h2 class="title-medium font-light">Atchison Recreation Sports Complex</h2>
 						<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark">
