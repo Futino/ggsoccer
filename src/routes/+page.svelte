@@ -116,7 +116,7 @@
 						<hr class="p-1 opacity-40" />
 						<h2 class="title-medium font-light">Atchison Recreation Sports Complex</h2>
 						<h2 class="font-bold title-large text-secondary-light dark:text-secondary-dark">
-							$130
+							$120
 						</h2>
 						<a href={FORM_LINK}>
 							<Button>
